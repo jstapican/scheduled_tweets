@@ -1,0 +1,27 @@
+Started GET "/about" for ::1 at 2021-10-23 00:24:00 +0800
+  [1m[35m (8.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 461)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/overgeared/Documents/RoR/scheduled_tweets/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 14545ms
+Built at: 10/23/2021 12:24:25 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 24715.5ms | Allocations: 11649)
+Completed 200 OK in 24863ms (Views: 24774.6ms | ActiveRecord: 0.0ms | Allocations: 16193)
+
+
